@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Nomad Coders" />
+    <meta name="description" content="Welcome to my Kakao Clone" />
+    <title>Box model</title>
+    <style>
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+        background-color: green;
+        height: 100%;
+      }
+      .box {
+        background-color: yellowgreen;
+        width: 50%;
+        height: 50%;
+        margin: 20px 10px 5px 2px;
+        border: 10px solid gold;
+        padding: 3px 5px;
+      }
+      .inside-box {
+        background-color: violet;
+        width: 50%;
+        height: 50%;
+        border: 10px dashed red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="inside-box"></div>
+    </div>
+  </body>
+</html>
